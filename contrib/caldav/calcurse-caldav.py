@@ -685,8 +685,8 @@ elif config.get('Auth', 'Password'):
     password = config.get('Auth', 'Password')
 elif config.get('Auth', 'PasswordCommand'):
     tokenized_cmd = shlex.split(config.get('Auth', 'PasswordCommand'))
-    password = subprocess.run(
-        tokenized_cmd, capture_output=True).stdout.decode('UTF-8').rstrip('\n')
+    cmd_output = subprocess.run(tokenized_cmd, capture_output=True).stdout
+    password = cmd_output.decode('UTF-8').partition('\n')[0]
 else:
     password = None
 
