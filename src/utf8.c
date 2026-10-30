@@ -185,7 +185,42 @@ static const struct utf8_range utf8_widthtab[] = {
 	{0x01dc0, 0x01de6, 0},
 	{0x01dfd, 0x01dff, 0},
 	{0x020d0, 0x020f0, 0},
+	{0x0231a, 0x0231b, 2},
 	{0x02329, 0x0232a, 2},
+	{0x023e9, 0x023ec, 2},
+	{0x023f0, 0x023f0, 2},
+	{0x023f3, 0x023f3, 2},
+	{0x025fd, 0x025fe, 2},
+	{0x02614, 0x02615, 2},
+	{0x02630, 0x02637, 2},
+	{0x02648, 0x02653, 2},
+	{0x0267f, 0x0267f, 2},
+	{0x0268a, 0x0268f, 2},
+	{0x02693, 0x02693, 2},
+	{0x026a1, 0x026a1, 2},
+	{0x026aa, 0x026ab, 2},
+	{0x026bd, 0x026be, 2},
+	{0x026c4, 0x026c5, 2},
+	{0x026ce, 0x026ce, 2},
+	{0x026d4, 0x026d4, 2},
+	{0x026ea, 0x026ea, 2},
+	{0x026f2, 0x026f3, 2},
+	{0x026f5, 0x026f5, 2},
+	{0x026fa, 0x026fa, 2},
+	{0x026fd, 0x026fd, 2},
+	{0x02705, 0x02705, 2},
+	{0x0270a, 0x0270b, 2},
+	{0x02728, 0x02728, 2},
+	{0x0274c, 0x0274c, 2},
+	{0x0274e, 0x0274e, 2},
+	{0x02753, 0x02755, 2},
+	{0x02757, 0x02757, 2},
+	{0x02795, 0x02797, 2},
+	{0x027b0, 0x027b0, 2},
+	{0x027bf, 0x027bf, 2},
+	{0x02b1b, 0x02b1c, 2},
+	{0x02b50, 0x02b50, 2},
+	{0x02b55, 0x02b55, 2},
 	{0x02cef, 0x02cf1, 0},
 	{0x02de0, 0x02dff, 0},
 	{0x02e80, 0x02e99, 2},
@@ -261,34 +296,120 @@ static const struct utf8_range utf8_widthtab[] = {
 	{0x1d185, 0x1d18b, 0},
 	{0x1d1aa, 0x1d1ad, 0},
 	{0x1d242, 0x1d244, 0},
-	{0x1f200, 0x1f200, 2},
-	{0x1f210, 0x1f231, 2},
+	{0x1f004, 0x1f004, 2},
+	{0x1f0cf, 0x1f0cf, 2},
+	{0x1f18e, 0x1f18e, 2},
+	{0x1f191, 0x1f19a, 2},
+	{0x1f200, 0x1f202, 2},
+	{0x1f210, 0x1f23b, 2},
 	{0x1f240, 0x1f248, 2},
+	{0x1f250, 0x1f251, 2},
+	{0x1f260, 0x1f265, 2},
+	{0x1f300, 0x1f320, 2},
+	{0x1f32d, 0x1f335, 2},
+	{0x1f337, 0x1f37c, 2},
+	{0x1f37e, 0x1f393, 2},
+	{0x1f3a0, 0x1f3ca, 2},
+	{0x1f3cf, 0x1f3d3, 2},
+	{0x1f3e0, 0x1f3f0, 2},
+	{0x1f3f4, 0x1f3f4, 2},
+	{0x1f3f8, 0x1f3ff, 2},
+	{0x1f400, 0x1f43e, 2},
+	{0x1f440, 0x1f440, 2},
+	{0x1f442, 0x1f4fc, 2},
+	{0x1f4ff, 0x1f53d, 2},
+	{0x1f54b, 0x1f54e, 2},
+	{0x1f550, 0x1f567, 2},
+	{0x1f57a, 0x1f57a, 2},
+	{0x1f595, 0x1f596, 2},
+	{0x1f5a4, 0x1f5a4, 2},
+	{0x1f5fb, 0x1f5ff, 2},
+	{0x1f600, 0x1f64f, 2},
+	{0x1f680, 0x1f6c5, 2},
+	{0x1f6cc, 0x1f6cc, 2},
+	{0x1f6d0, 0x1f6d2, 2},
+	{0x1f6d5, 0x1f6d8, 2},
+	{0x1f6dc, 0x1f6df, 2},
+	{0x1f6eb, 0x1f6ec, 2},
+	{0x1f6f4, 0x1f6fc, 2},
+	{0x1f7e0, 0x1f7eb, 2},
+	{0x1f7f0, 0x1f7f0, 2},
+	{0x1f90c, 0x1f93a, 2},
+	{0x1f93c, 0x1f945, 2},
+	{0x1f947, 0x1f9ff, 2},
+	{0x1fa70, 0x1fa7c, 2},
+	{0x1fa80, 0x1fa8a, 2},
+	{0x1fa8e, 0x1fac6, 2},
+	{0x1fac8, 0x1fac8, 2},
+	{0x1facd, 0x1fadc, 2},
+	{0x1fadf, 0x1faea, 2},
+	{0x1faef, 0x1faf8, 2},
 	{0x20000, 0x2fffd, 2},
 	{0x30000, 0x3fffd, 2},
 	{0xe0100, 0xe01ef, 0}
 };
 
-/* Decode a UTF-8 encoded character. Return the Unicode code point. */
-int utf8_decode(const char *s)
-{
-	if (UTF8_ISCONT(*s))
-		return -1;
+/*
+ * Number of continuation bytes to expect for a given leading byte, indexed
+ * by the leading byte's five most significant bits. A value of 0 indicates
+ * either a continuation byte or an invalid leading byte.
+ */
+static const char utf8_lentab[32] = {
+	/* 0XXXXXXX */ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+	/* 10XXXXXX */ 0, 0, 0, 0, 0, 0, 0, 0,
+	/* 110XXXXX */ 2, 2, 2, 2,
+	/* 1110XXXX */ 3, 3,
+	/* 11110XXX */ 4,
+	/* 11111XXX */ 0,
+};
 
-	switch (UTF8_LENGTH(*s)) {
-	case 1:
-		return s[0];
-	case 2:
-		return (s[1] & 0x3f) | (s[0] & 0x1f) << 6;
-	case 3:
-		return ((s[2] & 0x3f) | (s[1] & 0x3f) << 6) |
-			(s[0] & 0x0f) << 12;
-	case 4:
-		return (((s[3] & 0x3f) | (s[2] & 0x3f) << 6) |
-			(s[1] & 0x3f) << 12) | (s[0] & 0x7) << 18;
-	default:
-		return -1;
+/*
+ * Minimum code point that must be encoded with a given number of bytes.
+ * Used to detect overlong encodings, which are not valid UTF-8. Index 0
+ * and 1 are unused (invalid lead byte and single-byte encoding, which
+ * cannot be overlong).
+ */
+static const long utf8_minval[5] = { 0, 0, 0x80, 0x800, 0x10000 };
+
+/*
+ * Decode a UTF-8 encoded character and return the corresponding Unicode
+ * code point, or the replacement character (U+FFFD) if the character is
+ * ill-formed (including overlong encodings, encoded surrogate halves, and
+ * code points beyond U+10FFFF).
+ *
+ * The string does not need to be well-formed: this function never reads
+ * past the terminating null byte. If "end" is not NULL, it is set to point
+ * to the first byte following the decoded character (or to the
+ * terminating null byte, if the string ends within the character).
+ */
+long utf8_decode(const char *s, const char **end)
+{
+	unsigned char c = *s;
+	int n = utf8_lentab[c >> 3];
+	int len = n;
+	long v = n > 0 ? c & ((1 << (8 - n)) - 1) : 0xfffd;
+
+	while (n-- > 1) {
+		v <<= 6;
+		c = *++s;
+		if ((c & 0xc0) != 0x80) {
+			v = 0xfffd;
+			break;
+		}
+		v |= c & 0x3f;
 	}
+
+	if (v != 0xfffd && len > 1 &&
+	    (v < utf8_minval[len] || (v >= 0xd800 && v <= 0xdfff) ||
+	     v > 0x10ffff))
+		v = 0xfffd;
+
+	if (c != '\0')
+		++s;
+	if (end)
+		*end = s;
+
+	return v;
 }
 
 /*
@@ -331,11 +452,12 @@ char *utf8_encode(int u)
 /* Get the display width of a UTF-8 character. */
 int utf8_width(char *s)
 {
-	int val, low, high, cur;
+	long val;
+	int low, high, cur;
 
 	if (UTF8_ISCONT(*s))
 		return 0;
-	val = utf8_decode(s);
+	val = utf8_decode(s, NULL);
 	low = 0;
 	high = ARRAY_SIZE(utf8_widthtab);
 	do {
